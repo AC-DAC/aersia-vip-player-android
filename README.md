@@ -100,6 +100,19 @@ Enable "Install from unknown sources" on your device if installing manually via 
 
 ---
 
+## Screenshots
+
+<table>
+  <tr>
+    <td><img src="assets/screenshots/aersia-android-1.jpeg" width="220"/></td>
+    <td><img src="assets/screenshots/aersia-android-2.jpeg" width="220"/></td>
+    <td><img src="assets/screenshots/aersia-android-3.jpeg" width="220"/></td>
+    <td><img src="assets/screenshots/aersia-android-4.jpeg" width="220"/></td>
+  </tr>
+</table>
+
+---
+
 ## AI Usage Disclaimer
 
 Development of this fork made extensive use of [Claude](https://claude.ai) (Anthropic) as a coding assistant, used for:
