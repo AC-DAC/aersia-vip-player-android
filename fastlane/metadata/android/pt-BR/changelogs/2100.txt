@@ -1,0 +1,7 @@
+O Vidya Music foi totalmente reescrito em Jetpack Compose!
+Mal posso esperar pela sua opinião dessa nova versão!
+
+Nesta versão:
+• Foi refeita do zero usando Arquitetura Limpa para estabilidade
+• Traz um novo design baseado no Material 3 com cores dinâmicas do Material You opcionais
+• Apresenta uma nova belíssima fonte personalizada: FiraGO

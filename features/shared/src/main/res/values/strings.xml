@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" translatable="false">Aersia VIPVGM Player — Android</string>
+    <string name="app_name_short" translatable="false">Aersia VIPVGM</string>
+    <string name="app_description">An Android player for the Aersia VIPVGM playlist</string>
+    <string name="app_license">Licensed under AGPLv3+, developed by AC-DAC — fork of VidyaMusic by MateusRodCosta</string>
+
+    <string name="notification_permission_handler_granted">Notifications enabled! Media controls will show in the background.</string>
+    <string name="notification_permission_handler_denied">Notifications denied. Media controls won\'t appear on your lock screen.</string>
+
+    <string name="theme_mode_system">System Theme</string>
+    <string name="theme_mode_light">Light Theme</string>
+    <string name="theme_mode_dark">Dark Theme</string>
+
+    <string name="theme_mode_system_short">System</string>
+    <string name="theme_mode_light_short">Light</string>
+    <string name="theme_mode_dark_short">Dark</string>
+
+    <string name="description_logo_vidya_music">Aersia VIPVGM Player Logo</string>
+
+    <string name="description_icon_back">Back</string>
+    <string name="description_icon_settings">Settings</string>
+
+    <string name="button_cancel">Cancel</string>
+
+    <string name="unknown">Unknown</string>
+</resources>

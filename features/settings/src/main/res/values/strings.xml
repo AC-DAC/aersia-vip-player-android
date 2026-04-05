@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="screen_settings_title">Settings</string>
+
+    <string name="settings_appearance_section_header">Appearance</string>
+    <string name="settings_appearance_theme_selector_title">Theme</string>
+    <string name="settings_appearance_dynamic_colors_title">Dynamic Colors</string>
+    <string name="settings_appearance_dynamic_colors_subtitle">Use system wallpaper colors (Material You)</string>
+
+    <string name="settings_playback_section_header">Playback</string>
+    <string name="settings_playback_skip_intro_title">Skip Playlist Introductions</string>
+    <string name="settings_playback_skip_intro_subtitle">Remove intro from playlists</string>
+    <string name="settings_playback_shuffle_title">Shuffle</string>
+    <string name="settings_playback_shuffle_subtitle">Play tracks in random order</string>
+    <string name="settings_playback_bluetooth_autolaunch_title">Bluetooth Auto-Launch</string>
+    <string name="settings_playback_bluetooth_autolaunch_subtitle">Start playback when a Bluetooth device connects</string>
+    <string name="settings_playback_bluetooth_permission_denied">Bluetooth permission is required for auto-launch</string>
+    <string name="description_icon_bluetooth_autolaunch">Bluetooth Auto-Launch</string>
+    <string name="description_icon_shuffle">Shuffle</string>
+
+    <string name="settings_about_section_header">About</string>
+    <string name="settings_about_about_title">About</string>
+
+    <string name="screen_about_title">About</string>
+    <string name="about_vip_aersia_credits">Vidya Intarweb Playlist by Cats777</string>
+    <string name="about_tracks_copyright">All Tracks © &amp; ℗ Their Respective Owners</string>
+    <string name="about_source_code">Source code is available at</string>
+    <string name="about_licenses_section_header">Licenses</string>
+
+    <string name="settings_theme_selector_header">Theme</string>
+
+    <string name="description_icon_theme">Theme</string>
+    <string name="description_icon_dynamic_colors">Dynamic Colors</string>
+    <string name="description_icon_skip_intro">Skip Intro</string>
+    <string name="description_icon_about">About</string>
+</resources>

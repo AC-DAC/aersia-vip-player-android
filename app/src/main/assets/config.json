@@ -1,0 +1,61 @@
+{
+    "default_playlist": "vip",
+    "playlists": [
+        {
+            "id": "omni",
+            "order": 1,
+            "name": "Omni",
+            "description": "All playlists combined",
+            "type": "omni",
+            "constituents": ["vip", "source", "mellow", "exiled", "wap", "cpp"]
+        },
+        {
+            "id": "vip",
+            "order": 2,
+            "name": "VIP",
+            "description": "The big one",
+            "url": "https://www.vipvgm.net/roster.min.json"
+        },
+        {
+            "id": "source",
+            "order": 3,
+            "name": "Source",
+            "description": "VIP with the original tracks",
+            "url": "https://www.vipvgm.net/roster.min.json",
+            "is_source": true,
+            "extras": {
+                "source_path": "source/"
+            }
+        },
+        {
+            "id": "mellow",
+            "order": 4,
+            "name": "Mellow",
+            "description": "ResidentSleeper",
+            "url": "https://www.vipvgm.net/roster-mellow.min.json"
+        },
+        {
+            "id": "exiled",
+            "order": 5,
+            "name": "Exiled",
+            "description": "Here be dragons",
+            "url": "https://www.vipvgm.net/roster-exiled.min.json"
+        },
+        {
+            "id": "wap",
+            "order": 6,
+            "name": "WAP",
+            "description": "Weeaboo Anime Playlist",
+            "url": "https://wap.aersia.net/roster.xml",
+            "format": "xml"
+        },
+        {
+            "id": "cpp",
+            "order": 7,
+            "name": "CPP",
+            "description": "Chiptune++ Playlist",
+            "url": "https://cpp.aersia.net/roster.xml",
+            "format": "xml"
+        }
+    ]
+}

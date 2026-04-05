@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="playlist_screen_playist_selector_header">Selecionar lista de reprodução</string>
+    <string name="playlist_fullscreen_player_playing_from">Reproduzindo</string>
+
+    <string name="playlist_fullscreen_player_composed_by">Composto por %1$s</string>
+    <string name="playlist_fullscreen_player_arranged_by">• Arranjado por %1$s</string>
+
+    <string name="playlist_track_item_credit_text">%1$s (Arr. %2$s)</string>
+
+    <string name="playlist_no_connection_error">Não foi possível carregar a lista de reprodução. Verifique sua conexão.</string>
+    <string name="playlist_no_connection_try_again">Tentar novamente</string>
+
+    <string name="description_icon_no_connection">Sem conexão</string>
+
+    <string name="description_icon_collapse_player">Encolher reprodutor</string>
+    <string name="description_icon_switch_playlist">Trocar lista de reprodução</string>
+    <string name="description_icon_playlist">Lista de reprodução</string>
+    <string name="description_image_cover_art">Capa do álbum</string>
+
+    <string name="description_icon_play">Reproduzir</string>
+    <string name="description_icon_pause">Pausar</string>
+    <string name="description_icon_skip_previous">Anterior</string>
+    <string name="description_icon_skip_next">Próximo</string>
+</resources>

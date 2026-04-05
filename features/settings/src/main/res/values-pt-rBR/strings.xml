@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="screen_settings_title">Configurações</string>
+
+    <string name="settings_appearance_section_header">Aparência</string>
+    <string name="settings_appearance_theme_selector_title">Tema</string>
+    <string name="settings_appearance_dynamic_colors_title">Cores Dinâmicas</string>
+    <string name="settings_appearance_dynamic_colors_subtitle">Usar cores do papel de parede (Material You)</string>
+
+    <string name="settings_playback_section_header">Reproduçao</string>
+    <string name="settings_playback_skip_intro_title">Pular introduções das listas de reprodução</string>
+    <string name="settings_playback_skip_intro_subtitle">Remover introdução das listas de reprodução</string>
+
+    <string name="settings_about_section_header">Sobre</string>
+    <string name="settings_about_about_title">Sobre</string>
+
+    <string name="screen_about_title">Sobre</string>
+    <string name="about_vip_aersia_credits">Vidya Intarweb Playlist por Cats777</string>
+    <string name="about_tracks_copyright">Todas as Faixas © &amp; ℗ Seus Respectivos Donos</string>
+    <string name="about_source_code">O código fonte está disponível em</string>
+    <string name="about_licenses_section_header">Licenças</string>
+
+    <string name="settings_theme_selector_header">Tema</string>
+
+    <string name="description_icon_theme">Tema</string>
+    <string name="description_icon_dynamic_colors">Cores Dinâmicas</string>
+    <string name="description_icon_skip_intro">Pular Introdução</string>
+    <string name="description_icon_about">Sobre</string>
+</resources>

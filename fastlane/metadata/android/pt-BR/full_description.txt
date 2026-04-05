@@ -1,0 +1,11 @@
+<b>IMPORTANTE</b>: Vidya Music foi completamente reescrito com Jetpack Compose. Se prepare para várias novas melhorias do novo código, incluindo um tema Material 3 completamente novo com suporte a Material You!
+
+<b>Aviso de uso de IA</b>: Vidya Music agora faz uso intensivo do Google Gemini como parte do processo de desenvolvimento, acesse o repositório oficial para mais informações.
+
+Gosta de Música de Videogame (aka VGM)? Se sim, então veio ao lugar certo!
+
+Ouça várias das músicas de videogame mais incríveis dos seus jogos favoritos direto do seu dispositivo. Este app se baseia na lista de reprodução VIP Aersia (hoje em dia chamada VIPVGM), que contém as melhores das melhores músicas de videogame com curadoria de Cats777.
+
+A playlist original está disponível em <a href="https://www.vipvgm.net/">https://www.vipvgm.net/</a>. Todas as Faixas © & ℗ Seus Respectivos Donos.
+
+Vidya Music é desenvolvido com Jetpack Compose e é software livre. O código-fonte está disponível em <a href="https://github.com/MateusRodCosta/VidyaMusic">https://github.com/MateusRodCosta/VidyaMusic</a> e licenciado sob AGPLv3+.

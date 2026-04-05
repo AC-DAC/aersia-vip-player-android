@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="audio_controller_lost_connection">Lost connection. The music has been interrupted.</string>
+</resources>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="playlist_screen_playist_selector_header">Select Playlist</string>
+    <string name="playlist_fullscreen_player_playing_from">Playing from</string>
+
+    <string name="playlist_fullscreen_player_composed_by">Composed by %1$s</string>
+    <string name="playlist_fullscreen_player_arranged_by">• Arranged by %1$s</string>
+
+    <string name="playlist_track_item_credit_text">%1$s (Arr. %2$s)</string>
+
+    <string name="playlist_no_connection_error">Error on loading playlist. Check your connection.</string>
+    <string name="playlist_no_connection_try_again">Try again</string>
+
+    <string name="description_icon_no_connection">No Connection</string>
+
+    <string name="description_icon_collapse_player">Collapse player</string>
+    <string name="description_icon_switch_playlist">Switch Playlist</string>
+    <string name="description_icon_playlist">Playlist</string>
+    <string name="description_image_cover_art">Cover art</string>
+
+    <string name="description_icon_play">Play</string>
+    <string name="description_icon_pause">Pause</string>
+    <string name="description_icon_skip_previous">Previous</string>
+    <string name="description_icon_skip_next">Next</string>
+    <string name="description_icon_shuffle">Shuffle</string>
+</resources>

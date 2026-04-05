@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_description">Um reprodutor para a Vidya Intarweb Playlist (aka VIP Aersia)</string>
+    <string name="app_license">Licenciado sob a AGPLv3+, desenvolvido por MateusRodCosta</string>
+
+    <string name="notification_permission_handler_granted">Notificações ativadas! Os controles de mídia estarão disponíveis no plano de fundo.</string>
+    <string name="notification_permission_handler_denied">Permissão de notificação negada. Os controles de mídia não aparecerão na tela de bloqueio.</string>
+
+    <string name="theme_mode_system">Tema do Sistema</string>
+    <string name="theme_mode_light">Tema Claro</string>
+    <string name="theme_mode_dark">Tema Escuro</string>
+
+    <string name="theme_mode_system_short">Sistema</string>
+    <string name="theme_mode_light_short">Claro</string>
+    <string name="theme_mode_dark_short">Escuro</string>
+
+    <string name="description_logo_vidya_music">Logo do Vidya Music</string>
+
+    <string name="description_icon_back">Voltar</string>
+    <string name="description_icon_settings">Configurações</string>
+
+    <string name="button_cancel">Cancelar</string>
+
+    <string name="unknown">Desconhecido</string>
+</resources>

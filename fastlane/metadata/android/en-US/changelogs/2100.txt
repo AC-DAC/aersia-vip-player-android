@@ -1,0 +1,7 @@
+Vidya Music has been completely rewritten in Jetpack Compose!
+I can't wait for your feedback on this new version!
+
+This new release:
+• Has been built from the ground-up with Clean Architecture for stability
+• Features a new and improved design based on Material 3 with optional Material You dynamic colors
+• Introduces a whole new beautiful custom font in the form of FiraGO

@@ -1,0 +1,11 @@
+<b>IMPORTANT</b>: Vidya Music has been completely rewritten to Jetpack Compose. Expect several new improvements from the new codebase, including a whole new Material 3 theme with Material You support!
+
+<b>AI Usage Disclaimer</b>: Vidya Music now makes heavy use of Google Gemini as part of its development process, see the official repo for more info.
+
+Do you like Video Game Music (aka VGM)? If so, you came to the right place!
+
+Listen to several of the awesomest videogame songs from your favorite video games directly from your device. This app is based on the VIP Aersia playlist (nowadays VIPVGM), which contains the very best VGM tracks as curated by Cats777.
+
+The original playlist is available at <a href="https://www.vipvgm.net/">https://www.vipvgm.net/</a>. All Tracks © & ℗ Their Respective Owners.
+
+Vidya Music is written in Jetpack Compose and is FLOSS software. The source code is available at <a href="https://github.com/MateusRodCosta/VidyaMusic">https://github.com/MateusRodCosta/VidyaMusic</a> and licensed under AGPLv3+.
