@@ -20,7 +20,6 @@ Full parity with the self-hosted web player:
 | Mellow | Downtempo selections |
 | Exiled | Tracks that didn't make the cut |
 | WAP | Weeaboo Anime Playlist |
-| CPP | Couch Potato Playlist — film and TV scores |
 
 Omni is the default playlist on first launch.
 
@@ -32,7 +31,7 @@ The following features were added on top of the original VidyaMusic codebase:
 
 **Playlist additions:**
 - Source playlist filter — only shows tracks with source audio files, matching web player behaviour
-- WAP and CPP playlists — XML (XSPF) roster support added; upstream is JSON-only
+- WAP playlists — XML (XSPF) roster support added; upstream is JSON-only
 - Omni playlist — concurrent fetch of all six playlists, merged and sorted alphabetically; selected by default on first launch
 
 **Persistence:**
@@ -66,7 +65,7 @@ The following features were added on top of the original VidyaMusic codebase:
 | Architecture | Clean Architecture (app / core / data / domain / features) |
 | DI | Koin |
 | Persistence | Jetpack DataStore |
-| Playlist formats | JSON (VIP, Source, Mellow, Exiled) + XML/XSPF (WAP, CPP) |
+| Playlist formats | JSON (VIP, Source, Mellow, Exiled) + XML/XSPF (WAP) |
 | Build | Gradle |
 
 ---
