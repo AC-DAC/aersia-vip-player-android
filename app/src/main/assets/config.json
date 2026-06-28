@@ -7,7 +7,7 @@
             "name": "Omni",
             "description": "All playlists combined",
             "type": "omni",
-            "constituents": ["vip", "source", "mellow", "exiled", "wap", "cpp"]
+            "constituents": ["vip", "source", "mellow", "exiled", "wap"]
         },
         {
             "id": "vip",
@@ -47,14 +47,6 @@
             "name": "WAP",
             "description": "Weeaboo Anime Playlist",
             "url": "https://wap.aersia.net/roster.xml",
-            "format": "xml"
-        },
-        {
-            "id": "cpp",
-            "order": 7,
-            "name": "CPP",
-            "description": "Couch Potato Playlist — film and TV scores",
-            "url": "https://cpp.aersia.net/roster.xml",
             "format": "xml"
         }
     ]

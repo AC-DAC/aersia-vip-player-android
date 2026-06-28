@@ -121,7 +121,7 @@ class PlaylistRepositoryImpl(private val client: HttpClient) : PlaylistRepositor
                         when (currentTag) {
                             "creator" -> creator = parser.text.trim()
                             "title" -> title = parser.text.trim()
-                            "location" -> location = parser.text.trim()
+                            "location" -> location = parser.text.trim().replace("http://", "https://")
                         }
                     }
                 }

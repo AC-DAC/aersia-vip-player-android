@@ -33,15 +33,12 @@ class LoadOmniPlaylistUseCase(
                 }
 
                 val results = deferreds.awaitAll()
-                val failure = results.firstOrNull { it.isFailure }
-                if (failure != null) {
-                    return@coroutineScope Result.failure(failure.exceptionOrNull()!!)
-                }
 
                 val collator = Collator.getInstance(Locale.getDefault()).apply {
                     strength = Collator.PRIMARY
                 }
                 val mergedTracks = results
+                    .filter { it.isSuccess }
                     .flatMap { it.getOrThrow().tracks }
                     .sortedWith(Comparator { a, b ->
                         collator.compare(a.game + " " + a.title, b.game + " " + b.title)
