@@ -27,8 +27,9 @@ class BluetoothReceiver : BroadcastReceiver(), KoinComponent {
 
     @OptIn(DelicateCoroutinesApi::class)
     override fun onReceive(context: Context, intent: Intent) {
-        val file = File(context.filesDir, "bt_debug.txt")
-        file.appendText("onReceive fired: ${intent.action} at ${System.currentTimeMillis()}\n")
+        // Debug logging from the auto-launch work appended to this file on every Bluetooth
+        // broadcast and nothing ever trimmed it. Remove what earlier builds left behind.
+        File(context.filesDir, "bt_debug.txt").delete()
 
         if (intent.action != BluetoothDevice.ACTION_ACL_CONNECTED) return
 
@@ -36,16 +37,12 @@ class BluetoothReceiver : BroadcastReceiver(), KoinComponent {
         GlobalScope.launch {
             try {
                 val enabled = preferencesRepository.bluetoothAutoLaunch.first()
-                file.appendText("autoLaunch: $enabled\n")
                 if (!enabled) return@launch
 
                 val keyguardManager =
                     context.getSystemService(Context.KEYGUARD_SERVICE) as KeyguardManager
                 val powerManager =
                     context.getSystemService(Context.POWER_SERVICE) as PowerManager
-
-                file.appendText("isLocked: ${keyguardManager.isDeviceLocked}\n")
-                file.appendText("isInteractive: ${powerManager.isInteractive}\n")
 
                 if (!keyguardManager.isDeviceLocked && powerManager.isInteractive) {
                     val launchIntent = context.packageManager
@@ -54,7 +51,6 @@ class BluetoothReceiver : BroadcastReceiver(), KoinComponent {
                             flags = Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_SINGLE_TOP
                             putExtra("expand_player", true)
                         }
-                    file.appendText("launchIntent: ${launchIntent != null}\n")
 
                     if (launchIntent != null) {
                         val notificationManager =
