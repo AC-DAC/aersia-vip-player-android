@@ -44,7 +44,6 @@ class BluetoothReceiver : BroadcastReceiver(), KoinComponent {
                 val powerManager =
                     context.getSystemService(Context.POWER_SERVICE) as PowerManager
 
-
                 if (!keyguardManager.isDeviceLocked && powerManager.isInteractive) {
                     val launchIntent = context.packageManager
                         .getLaunchIntentForPackage(context.packageName)
