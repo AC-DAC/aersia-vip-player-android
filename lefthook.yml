@@ -1,4 +1,13 @@
 pre-commit:
   commands:
+    private-terms:
+      # Personal context (names, a document's subject) never reaches git. The checker and
+      # its term list live in ~/.config/git/, outside every repo; skipped where absent.
+      run: 'c="$HOME/.config/git/private-terms-check"; [ ! -x "$c" ] || "$c" staged'
     gitleaks:
       run: gitleaks protect --staged --redact
+
+commit-msg:
+  commands:
+    private-terms:
+      run: 'c="$HOME/.config/git/private-terms-check"; [ ! -x "$c" ] || "$c" msg {1}'
