@@ -11,3 +11,10 @@ commit-msg:
   commands:
     private-terms:
       run: 'c="$HOME/.config/git/private-terms-check"; [ ! -x "$c" ] || "$c" msg {1}'
+
+pre-push:
+  commands:
+    private-terms:
+      # Every commit not on GitHub yet, with its message: catches old history merged back
+      # from a stale clone, which the commit checks never see.
+      run: 'c="$HOME/.config/git/private-terms-check"; [ ! -x "$c" ] || "$c" push'
